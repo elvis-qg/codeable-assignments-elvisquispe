@@ -1,0 +1,28 @@
+body {
+  background-color: #544e4e;
+}
+
+main {
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.container-codeable {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.codeable-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #a0a2a6;
+}
