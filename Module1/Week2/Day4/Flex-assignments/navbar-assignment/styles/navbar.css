@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+.navbar-uber {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+  background-color: black;
+}
+
+.navbar-sections {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 207px;
+  justify-content: space-between;
+  padding-left: 17.27px;
+  padding-right: 137px;
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.search-bar {
+  width: 184px;
+  height: 24px;
+  padding-left: 6.75px;
+  margin-right: 241px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.search-icon {
+  color: black;
+}
+
+.website-language, .account-login {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.website-language {
+  padding-right: 21px;
+}
+
+.user-icon {
+  margin-right: 4px;
+}
+
+.account-login {
+  padding-left: 4px;
+  padding-right: 12px;
+}
+
+.button-sign-up{
+  border: none;
+  background-color: #ffffff;
+  width: 77px;
+  height: 35px;
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 15px;
+  color: black;
+}
+
+
