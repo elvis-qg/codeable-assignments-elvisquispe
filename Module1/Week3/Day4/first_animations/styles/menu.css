@@ -1,0 +1,46 @@
+.menu {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    
+}
+
+.sections {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 22px;
+    width: 58px;
+    height: 32px;
+    align-items: center;    
+}
+
+.menu-section {
+    margin-left: 50px;
+}
+
+.section-options {
+    display: none;
+    
+}
+
+.menu-section:hover ul {
+    display: grid;
+    position: absolute;
+    top: 48px;
+    list-style: none;
+    width: 139px;
+    height: 184px;
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+
+.option {
+    
+    display: flex;
+    
+    
+}
+
